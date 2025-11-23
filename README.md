@@ -66,18 +66,7 @@ you can check the details about the docker image here: <a href="https://hub.dock
 - Install Docker Desktop on Windows, it will install Docker Compose as well, Docker Compose will allow you to run multiple container applications
 Install git-bash for windows, once installed , open git bash and download the below repository, this will download all the files needed.
 
-``` 
-ramse@DESKTOP-K6K6E5A MINGW64 /c
-$ git clone https://github.com/Wittline/apache-spark-docker.git
-```
-
 - once inside the folder use the below comman, this will install all the images from the docker-compose file and will setup all the containers, This will take some time.
-
-```
-ramse@DESKTOP-K6K6E5A MINGW64 /c/apache-spark-docker/docker
-$ winpty docker-compose up -d
-```
-
 - When everything is finished, you will see the name of all the containers with the status done
 - Now go to jupyterlab, using the url: http://localhost:8889/, this will open a new tab, enjoy writing your pyspark code.
 - Go to Hue using the url: http://localhost:8888/, and check your tables in HDFS
@@ -86,8 +75,8 @@ $ winpty docker-compose up -d
 Any ideas or feedback about this repository?. Help me to improve it.
 
 ## Authors
-- Created by <a href="https://www.linkedin.com/in/ramsescoraspe"><strong>Ramses Alexander Coraspe Valdez</strong></a>
-- Created on August, 2021
+- Created by <a href="https://www.linkedin.com/pavel-gunin-a45a052b9"><strong>Pavel Gunin </strong></a>
+- Created & Upgrade on Nov, 2025
 
 ## License
 This project is licensed under the terms of the Apache License.
