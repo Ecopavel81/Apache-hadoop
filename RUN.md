@@ -9,7 +9,8 @@ If you want to run the full stack:
 docker-compose up --build
 
 Upgrade Cluster. Use instruments:
-PARK_VERSION: "3.5.0"
+
+SPARK_VERSION: "3.5.0"
 
 HADOOP_VERSION: "3.3"
 
